@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px gray;
+    gap: 5vw;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    padding: 10px 32px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    /* padding: 10px 32px; */
+
+}
+
+select {
+    border: none;
+    font-size: medium;
+}
+
+.search>input {
+    padding: 10px 150px;
+
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.user button {
+    height: 45px;
+    width: 70px;
+    border-radius: 100px;
+    border: #808080a8;
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    /* background-color: white; */
+}
+
+.user button:hover {
+    background-color: #e9e3fc;
+}
+
+.fa-user {
+    background-color: #aed2e5;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+
+/* Section-1 */
+.section-1 {
+    background-color: #fffaee;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    padding-top: 50px;
+    position: relative;
+}
+
+.section-1::after {
+    content: "";
+    background-color: #fffaee;
+    height: 20vh;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    z-index: -1;
+}
+
+
+
+.img>img {
+
+    height: 300px;
+    width: 400px;
+}
+
+.text {
+    text-align: center;
+    width: 50vw;
+    color: #271a38;
+
+}
+
+/* Section-2 */
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    gap: 3vw;
+
+}
+
+
+
+.student {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    background-color: #fdfbe0;
+    padding: 10px;
+    border-top: solid 7px #f8b32f;
+    border-radius: 12px;
+
+}
+
+.student>button {
+    width: 15vw;
+    height: 7vh;
+    border: none;
+    background-color: #7451eb;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.student>a {
+    text-decoration: none;
+    color: #7451eb;
+    font-weight: bold;
+}
+
+.employers {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    background-color: #ebeefb;
+    padding: 10px;
+    border-top: solid 7px #9daaf3;
+    border-radius: 12px;
+
+}
+
+.employers>button {
+    width: 15vw;
+    height: 7vh;
+    border: none;
+    background-color: #7451eb;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.employers>a {
+    text-decoration: none;
+    color: #7451eb;
+    font-weight: bold;
+}
+
+.txt {
+    padding: 100px 0;
+    text-align: center;
+}
